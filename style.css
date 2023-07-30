@@ -8,10 +8,10 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 body {
-  background-image: url("https://www.wallpaperflare.com/static/916/540/934/minecraft-shaders-game-application-wallpaper.jpg");
+  background-image: url("landing_bg.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 h1{
@@ -51,6 +51,7 @@ h1{
   background-color:	#BF40BF;
   border-color: 	#BF40BF;
   border-width: 4px;
+  transition: ease-in;
 }
 
 hr{
@@ -59,7 +60,7 @@ hr{
   max-width: 65px;
 }
 .buffer{
-  height: 10rem;
+  height: 5rem;
 }
 .container_d-flex_align-items-center_h-100{
  display: flex;
@@ -72,7 +73,8 @@ hr{
   align-items: center!important;
   justify-content: center;
 }
-.cip{
+.cip{ 
+  opacity: 0.6;
   color: aqua;
  text-transform: uppercase;
 
@@ -91,6 +93,7 @@ color: lime;
   border-color: white;
 }
 .btn-git:hover{
+  color:black;
   background-color:darkgray;
   border-color: 	gray;
   border-width: 4px;
@@ -102,6 +105,7 @@ color: lime;
   border-width: 4px;
 }
 .btn-ds{
+  color:black;
   background-color: 	#7289da;
   border-color:	#282b30;
 }
@@ -109,4 +113,20 @@ color: lime;
   background-color:#7289da ;
   color: white;
   border: #7289da;
+}
+
+.aboutme{
+  background-color: darkgoldenrod;
+  border-color: darkblue;
+  padding: 1rem 1rem;
+  border-width: 3px;
+  border-radius: 100px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  font-weight: 700;
+}
+.aboutme:hover{
+  transition: ease-in 0.5s;
+  border-color:white;
+  color: black;
 }
