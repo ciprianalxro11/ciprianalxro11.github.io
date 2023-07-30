@@ -9,9 +9,9 @@ html {
 }
 body {
   background-image: url("https://www.wallpaperflare.com/static/916/540/934/minecraft-shaders-game-application-wallpaper.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  object-fit: contain;
+  
 }
 
 h1{
